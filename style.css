@@ -48,6 +48,12 @@ li {
     flex: 1 0 fit-content;
 }
 
+.header-link
+{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 main {
     background-color: #1F2937;
     padding: 20px;
