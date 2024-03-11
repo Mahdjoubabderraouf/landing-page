@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khojki&family=Signika:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khojki&family=Signika:wght@300..700&display=swap"
+        rel="stylesheet">
     <title>Landing Page</title>
 </head>
+
 <body>
     <header>
         <nav>
-            <div class="logo">Header Logo</div>
+            <a class="logo" href="#"> <img src="./images/logo.png" alt="Logo"><b>Header Logo</b></a>
             <ul>
                 <li><a href="#" class="header-link">header link one</a></li>
                 <li><a href="#" class="header-link">header link two</a></li>
@@ -22,27 +25,57 @@
     </header>
     <main>
         <section class="dark-blue">
-            <div class="content">
-                <h1 class="FirstHead">This website is awesome</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati neque et accusamus, rem fugiat natus reprehenderit quas, quasi facere aperiam cum. Ipsum?</p>
-                <button class="sign-up">Sign up</button>
+            <div class="flex-container">
+                <div class="content">
+                    <h1 class="FirstHead">This website is awesome</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati neque et accusamus, rem
+                        fugiat natus reprehenderit quas, quasi facere aperiam cum. Ipsum?</p>
+                    <button class="sign-up">Sign up</button>
+                </div>
+                <div class="image-container">
+                    <img src="./images/exemple.jpg" alt="image exemple">
+                </div>
             </div>
-            <div class="image-container">
-                <img src="./images/exemple.jpg" alt="image exemple">
-            </div>    
         </section>
         <section class="white-section">
-            <div class="info-header"></div>
+            <div class="info-title">Some random information.</div>
             <div class="flex-items">
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
+                <div class="item">
+                    <img src="./images/pexels-oliver-s-18973615.jpg" alt="">
+                    <div class="img-dis">Image descreption</div>
+                </div>
+                <div class="item">
+                    <img src="./images/pexels-emre-akyol-18163082.jpg" alt="">
+                    <div class="img-dis">Image descreption</div>
+                </div>
+                <div class="item">
+                    <img src="./images/pexels-hamza-razuk-20247142.jpg" alt="">
+                    <div class="img-dis">Image descreption</div>
+                </div>
+                <div class="item">
+                    <img src="./images/pexels-jeremy-bishop-20391917.jpg" alt="">
+                    <div class="img-dis">Image descreption</div>
+                </div>
             </div>
-        </section> 
-        <section></section>
-        <section></section>
+            </div>
+        </section>
+        <section class="gry-section">
+            <div class="container">
+                <p>Do not go where the path may lead, go instead where there is no path and leave a trail.</p>
+                <div>-Ralph Waldo Emerson</div>
+            </div>
+        </section>
+        <section class="last-section">
+            <div class="container">
+                    <div class="signup">
+                        <div class="call-action">Call to action! It's time!</div>
+                        <p>Sign up for our product by clicking that button right over there! </p>
+                    </div>
+                    <button>Sign up</button>
+            </div>
+        </section>
     </main>
     <footer></footer>
 </body>
+
 </html>
